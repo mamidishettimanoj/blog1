@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Post Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="index.html" class="btn-2">Back to Home</a>
+  <div id="full-post-container">
+      <!-- Full post content will be displayed here -->
+  </div>
+
+  <h2 class="add-comment">Comments</h2>
+  <div id="comments-container">
+      <!-- Comments will be displayed here -->
+  </div>
+
+  <h3 class="add-comment">Add a Comment</h3>
+  <form id="comment-form">
+      <label for="comment-author">Name:</label><br>
+      <input type="text" id="comment-author" name="author" required><br><br>
+
+      <label for="comment-text">Comment:</label><br>
+      <textarea id="comment-text" name="text" rows="3" required></textarea><br><br>
+
+      <button type="submit">Submit Comment</button>
+  </form>
+  <footer>
+    <p>&copy; 2024 BlogSphere. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
